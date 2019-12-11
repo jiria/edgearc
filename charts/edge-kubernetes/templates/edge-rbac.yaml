@@ -11,7 +11,7 @@ metadata:
 ...
 ---
 apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
+kind: ClusterRoleBinding
 metadata:
   name: iotedge:{{ .Release.Name }}:auth-delegator
   namespace: {{ include "edge-kubernetes.namespace" . | quote }}
