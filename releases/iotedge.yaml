@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: edge1
   chart:
-    git: git@github.com:veyalla/edgearc
+    git: git://github.com/veyalla/edgearc.git
     path: charts/edge-kubernetes
     ref: master
     #repository: https://edgek8s.blob.core.windows.net/staging
