@@ -10,7 +10,7 @@ metadata:
 spec:
   releaseName: edge1
   chart:
-    git: git@github.com:Azure/iotedge
+    git: git@github.com:Azure/iotedge.git
     ref: master
     path: kubernetes/charts/edge-kubernetes
     #repository: https://edgek8s.blob.core.windows.net/staging
