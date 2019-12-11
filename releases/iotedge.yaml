@@ -1,0 +1,18 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: iotedge
+  namespace: helloworld
+  annotations:
+    flux.weave.works/automated: "false"
+    flux.weave.works/tag.chart-image: semver:~4.0
+spec:
+  releaseName: edge1
+  chart:
+    repository: https://edgek8s.blob.core.windows.net/staging
+    name: edge-kubernetes
+    version: 0.1.7
+  valuesFrom:
+    - secretKeyRef:
+        name: dcs
