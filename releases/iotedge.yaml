@@ -9,9 +9,6 @@ metadata:
     flux.weave.works/tag.chart-image: semver:~4.0
 spec:
   chart:
-    #git: git://github.com/veyalla/edgearc.git
-    #path: charts/edge-kubernetes
-    #ref: master
     repository: https://edgek8s.blob.core.windows.net/staging
     name: edge-kubernetes
     version: 0.1.8
