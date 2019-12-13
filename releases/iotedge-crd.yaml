@@ -1,0 +1,14 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: iotedge-crd
+  annotations:
+    flux.weave.works/automated: "false"
+    flux.weave.works/tag.chart-image: semver:~4.0
+spec:
+  releaseName: edge1
+  chart:
+    repository: https://edgek8s.blob.core.windows.net/staging
+    name: edge-kubernetes-crd
+    version: 0.1.7
