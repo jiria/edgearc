@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: iotedge
-  namespace: helloworld
+  namespace: iotedge
   annotations:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: semver:~4.0
