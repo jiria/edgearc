@@ -8,7 +8,6 @@ metadata:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: semver:~4.0
 spec:
-  releaseName: edge1
   chart:
     git: git://github.com/veyalla/edgearc.git
     path: charts/edge-kubernetes
