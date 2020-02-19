@@ -8,7 +8,6 @@ metadata:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: semver:~4.0
 spec:
-  helmVersion: v3
   chart:
     repository: https://edgek8s.blob.core.windows.net/staging
     name: edge-kubernetes
