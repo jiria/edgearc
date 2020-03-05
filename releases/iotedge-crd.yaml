@@ -8,7 +8,8 @@ metadata:
     flux.weave.works/tag.chart-image: semver:~4.0
 spec:
   releaseName: edge-crd
+  helmVersion: v3
   chart:
-    repository: https://edgek8s.blob.core.windows.net/staging
+    repository: https://jiria.github.io/jdemo-helm
     name: edge-kubernetes-crd
     version: 0.1.7

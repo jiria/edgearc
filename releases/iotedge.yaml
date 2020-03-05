@@ -8,10 +8,11 @@ metadata:
     flux.weave.works/automated: "false"
     flux.weave.works/tag.chart-image: semver:~4.0
 spec:
+  helmVersion: v3
   chart:
-    repository: https://edgek8s.blob.core.windows.net/staging
+    repository: https://jiria.github.io/jdemo-helm
     name: edge-kubernetes
-    version: 0.2.1
+    version: 0.2.3
   valuesFrom:
     - secretKeyRef:
         name: dcs
